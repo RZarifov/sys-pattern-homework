@@ -1,0 +1,2 @@
+REVOKE INSERT, UPDATE, DELETE ON sakila.* FROM 'sys_temp'@'%';
+FLUSH PRIVILEGES;
